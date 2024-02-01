@@ -17,7 +17,7 @@ if search_input:
         # Print the title and summary of the Wikipedia page
         stl.write("Title:", page_py.title)
         with stl.expander('Summary'):
-            stl.info("Summary:", page_py.summary)
+            stl.write("Summary:", page_py.summary)
         print("Title:", page_py.title)
         print("Summary:", page_py.summary)
     else:
